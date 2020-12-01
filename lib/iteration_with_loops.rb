@@ -8,7 +8,7 @@ counter = 0
 while counter < src.length
   inner_count = 0
   while inner_count < src[counter].length
-    binding.pru
+    binding.pry
     return src[counter] if src[counter].even?
     inner_count += 1
   end
