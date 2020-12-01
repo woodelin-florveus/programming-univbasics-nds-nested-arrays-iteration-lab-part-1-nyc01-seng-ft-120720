@@ -10,7 +10,7 @@ while counter < src.length
   while inner_count < src[counter].length
     binding.pry
     if src[counter].even?
-      src[counter]
+      new_arr << src[counter]
     end
     inner_count += 1
   end
