@@ -5,7 +5,7 @@ def find_even_values(src)
 
   src.each do |find|
     find.each do |one|
-      binding.pru
+      binding.pry
     end
   end
 
