@@ -8,6 +8,9 @@ counter = 0
 while counter < src.length
   inner_count = 0
   while inner_count < src[counter].length
+    binding.pry
+    inner_count += 1
+  end
   counter += 1
 end
 
