@@ -10,7 +10,7 @@ while counter < src.count
   while inner_count < src[counter].count
     binding.pry
     if src[counter][inner_count].even?
-     src[counter][inner_count]
+     p src[counter][inner_count]
     end
     inner_count += 1
   end
