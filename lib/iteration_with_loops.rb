@@ -9,7 +9,9 @@ while counter < src.length
   inner_count = 0
   while inner_count < src[counter].length
     binding.pry
-    return src[counter] if src[counter].even?
+    if src[counter].even?
+
+    end
     inner_count += 1
   end
   counter += 1
