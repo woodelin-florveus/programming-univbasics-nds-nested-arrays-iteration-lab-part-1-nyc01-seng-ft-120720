@@ -8,7 +8,6 @@ new_arr = []
 while counter < src.count
   inner_count = 0
   while inner_count < src[counter].count
-    binding.pry
     if src[counter][inner_count].even?
      p src[counter][inner_count]
     end
