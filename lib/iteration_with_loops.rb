@@ -6,7 +6,8 @@ def find_even_values(src)
 counter = 0
 
 while counter < src.length
-  binding.pry
+  inner_count = 0
+  while inner_count < src[counter].length
   counter += 1
 end
 
