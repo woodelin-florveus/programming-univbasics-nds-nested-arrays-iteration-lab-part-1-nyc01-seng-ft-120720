@@ -5,7 +5,7 @@ def find_even_values(src)
 
 counter = 0
 new_arr = []
-while counter < src.length
+while counter < src.count
   inner_count = 0
   while inner_count < src[counter].length
     binding.pry
